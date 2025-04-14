@@ -7,6 +7,7 @@ import Notice from "./_components/Notice";
 import Navbar from "./_components/Navbar";
 import Footer from "./_components/Footer";
 import { ClerkProvider } from "@clerk/nextjs";
+import { CartProvider } from "./_context/CartContext";
 
 const merriweather = Merriweather({
   variable: "--font-merriweather",
@@ -41,13 +42,15 @@ export default function RootLayout({
             enableSystem
             disableTransitionOnChange
           >
-            <div className="min-h-screen flex flex-col">
-              <Notice />
-              <Navbar />
-              {children}
-            </div>
-            <Footer />
-            <Toaster />
+            <CartProvider>
+              <div className="min-h-screen flex flex-col">
+                <Notice />
+                <Navbar />
+                {children}
+              </div>
+              <Footer />
+              <Toaster />
+            </CartProvider>
           </ThemeProvider>
         </body>
       </html>

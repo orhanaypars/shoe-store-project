@@ -1,0 +1,15 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgres" // Eğer istersen SQLite, Postgres veya başka bir veritabanı kullanabilirsin
+  url      = env("DATABASE_URL")
+}
+
+model Shoe {
+  id        Int      @id @default(autoincrement())
+  name      String
+  imageUrl  String
+  createdAt DateTime @default(now())
+}
