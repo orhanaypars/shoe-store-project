@@ -5,6 +5,7 @@ export const discountedProducts = [
     brand: "Nike Air Force",
     price: 120,
     discounted: true,
+    name: "Nike Air Force",
   },
   {
     id: 2,
@@ -12,6 +13,7 @@ export const discountedProducts = [
     brand: "Adidas Ultraboost",
     price: 100,
     discounted: true,
+    name: "Adidas Ultraboost",
   },
   {
     id: 3,
@@ -19,6 +21,7 @@ export const discountedProducts = [
     brand: "Puma Suede Classic",
     price: 90,
     discounted: true,
+    name: "Puma Suede Classic",
   },
   {
     id: 4,
@@ -26,6 +29,7 @@ export const discountedProducts = [
     brand: "Reebok Club C 85",
     price: 110,
     discounted: true,
+    name: "Reebok Club C 85",
   },
   {
     id: 5,
@@ -33,6 +37,7 @@ export const discountedProducts = [
     brand: "New Balance 574",
     price: 130,
     discounted: true,
+    name: "New Balance 574",
   },
 ];
 
@@ -42,36 +47,42 @@ export const kidsProducts = [
     image: "/kidshoe-1.png",
     brand: "Nike Kids Revolution",
     price: 60,
+    name: "Nike Kids Revolution",
   },
   {
     id: 2,
     image: "/kidshoe-2.png",
     brand: "Adidas Kids Superstar",
     price: 55,
+    name: "Adidas Kids Superstar",
   },
   {
     id: 3,
     image: "/kidshoe-3.png",
     brand: "Puma Kids Runner",
     price: 50,
+    name: "Puma Kids Runner",
   },
   {
     id: 4,
     image: "/kidshoe-4.png",
     brand: "Reebok Kids Classic",
     price: 65,
+    name: "Reebok Kids Classic",
   },
   {
     id: 5,
     image: "/kidshoe-5.png",
     brand: "New Balance Kids 574",
     price: 70,
+    name: "New Balance Kids 574",
   },
   {
     id: 6,
     image: "/kidshoe-6.png",
     brand: "Skechers Kids Energy",
     price: 45,
+    name: "Skechers Kids Energy",
   },
 ];
 
@@ -82,6 +93,7 @@ export const womenProducts = [
     brand: "Nike Air Max Women",
     price: 120,
     description: "Comfortable and stylish, perfect for everyday wear.",
+    name: "Nike Air Max Women",
   },
   {
     id: 2,
@@ -89,6 +101,7 @@ export const womenProducts = [
     brand: "Adidas Ultraboost Women",
     price: 140,
     description: "High-performance running shoes with superior cushioning.",
+    name: "Adidas Ultraboost Women",
   },
   {
     id: 3,
@@ -96,6 +109,7 @@ export const womenProducts = [
     brand: "Puma Cali Women",
     price: 90,
     description: "Trendy and casual sneakers for a relaxed look.",
+    name: "Puma Cali Women",
   },
   {
     id: 4,
@@ -103,6 +117,7 @@ export const womenProducts = [
     brand: "Reebok Nano Women",
     price: 110,
     description: "Designed for training and fitness enthusiasts.",
+    name: "Reebok Nano Women",
   },
   {
     id: 5,
@@ -110,6 +125,7 @@ export const womenProducts = [
     brand: "New Balance 990 Women",
     price: 150,
     description: "Premium quality sneakers with exceptional comfort.",
+    name: "New Balance 990 Women",
   },
   {
     id: 6,
@@ -117,6 +133,7 @@ export const womenProducts = [
     brand: "Skechers Go Walk Women",
     price: 80,
     description: "Lightweight and flexible, ideal for walking.",
+    name: "Skechers Go Walk Women",
   },
 ];
 
@@ -128,6 +145,7 @@ export const menProducts = [
     price: 130,
     description:
       "Durable and stylish, perfect for both casual and athletic use.",
+    name: "Nike Air Max Men",
   },
   {
     id: 2,
@@ -135,6 +153,7 @@ export const menProducts = [
     brand: "Adidas Ultraboost Men",
     price: 150,
     description: "Top-notch running shoes with unmatched comfort and support.",
+    name: "Adidas Ultraboost Men",
   },
   {
     id: 3,
@@ -142,6 +161,7 @@ export const menProducts = [
     brand: "Puma RS-X Men",
     price: 100,
     description: "Bold and modern design for a standout look.",
+    name: "Puma RS-X Men",
   },
   {
     id: 4,
@@ -149,6 +169,7 @@ export const menProducts = [
     brand: "Reebok Classic Leather Men",
     price: 120,
     description: "Timeless design with premium materials for everyday wear.",
+    name: "Reebok Classic Leather Men",
   },
   {
     id: 5,
@@ -156,6 +177,7 @@ export const menProducts = [
     brand: "New Balance 574 Men",
     price: 140,
     description: "Iconic sneakers with superior cushioning and style.",
+    name: "New Balance 574 Men",
   },
   {
     id: 6,
@@ -163,5 +185,6 @@ export const menProducts = [
     brand: "Skechers Arch Fit Men",
     price: 90,
     description: "Engineered for maximum comfort and arch support.",
+    name: "Skechers Arch Fit Men",
   },
 ];
